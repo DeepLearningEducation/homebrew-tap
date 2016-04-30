@@ -5,7 +5,7 @@ class Tensorflow < Formula
   sha256 "b83d98cacbb207f77cb136ce2bd32e694856a2063ea80bd1a1574959b600229d"
 
   def install
-    bin.install install_and_run_tensorflow_with_docker
+    system ./install_and_run_tensorflow_with_docker
   end
 
   test do
